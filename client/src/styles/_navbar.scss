@@ -1,0 +1,24 @@
+.nav-contatiner {
+    background-color: aliceblue;
+    height: 80px;
+
+    position: static;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu-icon, .profile-icon {
+        width: fit-content;
+        padding: 0px 32px;
+
+        display: flex;
+        align-items: center;
+
+        sl-icon {
+            font-size: 34px;
+        }
+    }
+}

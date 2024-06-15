@@ -1,0 +1,56 @@
+.home-page-main {
+  height: 100%;
+
+  .hero-section {
+    height: 75vh;
+    padding: 0px 8px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    //   grid-column-gap: 8px;
+    //   grid-row-gap: 8px;
+
+    .box {
+      background-color: lightgrey;
+      margin: 4px;
+      border-radius: 16px;
+      text-align: center;
+    }
+
+    #box-1 {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 5;
+    }
+
+    #box-cta {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    #box-2 {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 3;
+      grid-row-end: 7;
+    }
+
+    #box-3 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 5;
+      grid-row-end: 7;
+    }
+
+    #box-4 {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 5;
+      grid-row-end: 7;
+    }
+  }
+}
